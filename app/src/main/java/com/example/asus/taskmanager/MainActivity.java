@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+       /* setContentView(R.layout.activity);
         welcomeImg = (ImageView)findViewById(R.id.welcome);
         anim=new AlphaAnimation(0.1f,1.0f);//设置透明度动画效果
         anim.setDuration(200);//设置动画持续时间2秒钟
@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAnimationEnd(Animation animation) {
                 //这里启动注册和登录页面，目前什么都不做，直接退出
-               /* Intent intent = new Intent(MainActivity.this, AccountAuthenticatorActivity.class);
+               *//* Intent intent = new Intent(MainActivity.this, AccountAuthenticatorActivity.class);
                 startActivity(intent);
-                */
+                *//*
                 finish();
 
             }
@@ -41,6 +41,6 @@ public class MainActivity extends AppCompatActivity {
             public void onAnimationRepeat(Animation animation) {
 
             }
-        });
+        });*/
     }
 }
